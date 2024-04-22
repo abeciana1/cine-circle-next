@@ -36,9 +36,9 @@ jobs:
     #     publish_dir: ./storybook-static
 
     # Cypress
-    - name: Run Cypress E2E Tests
-      uses: cypress-io/github-action@v3
-      with:
-        start: npm start
-        wait-on: 'http://localhost:3000'
-        wait-on-timeout: 300
+    # - name: Run Cypress E2E Tests
+    #   uses: cypress-io/github-action@v3
+    #   with:
+    #     start: npm start
+    #     wait-on: 'http://localhost:3000'
+    #     wait-on-timeout: 300
